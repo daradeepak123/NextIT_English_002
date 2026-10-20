@@ -31,7 +31,42 @@ Git
 	source integration
 
 
+home page    8 hours
 
+dashboard    8 hrs
+
+admin
+
+contact us
+
+about us
+
+
+repo   repository 
+
+	local   
+		
+	remote   deposit
+
+git
+
+
+versioning 
+
+
+branching
+
+
+
+1.0
+
+
+2.0
+
+
+3.0
+
+4.0
 
 
 
