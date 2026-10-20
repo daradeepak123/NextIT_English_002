@@ -1,0 +1,112 @@
+
+
+Agenda
+	1. Locators
+		a. built in locators
+			
+		b. css
+		c. xpath
+	2. WebElements
+
+
+
+<input type='checkbox'>hello</input>
+
+
+page.getByRole("checkbox",name:{'hello'})
+
+<button>Submit</button>
+
+Element	Playwright Locator
+Button	page.getByRole('button', { name: 'Submit' })
+<a>Learn more</a>
+Link	page.getByRole('link', { name: 'Learn more' })
+Textbox	page.getByRole('textbox', { name: 'Email' })
+Heading	page.getByRole('heading', { name: 'Welcome' })
+Checkbox page.getByRole('checkbox', { name: 'Remember me' })
+Radio button	page.getByRole('radio', { name: 'Option A' })
+Dropdown / Select page.getByRole('combobox', { name: 'Country' })
+
+
+
+
+
+get by text
+
+<a>hello</a>
+<p></p>
+<span></span>
+<div></div>
+<><>
+
+
+page.getByText('hello')
+
+
+<p>Username : Admin</p>
+page.getByText('Username : Admin')
+
+
+
+<label>Password <input type="password" /></label>
+
+page.getByRole('textbox')
+page.getByText('Password')
+page.getByLabel('Password')
+
+
+
+
+<button id="abc1" place-holder="aabbaa">sub</button>
+
+page.getByrole('button',{name: 'sub'})
+page.getByText('sub')
+page.getByPlaceHolder('aabbaa')
+
+
+
+CSS selector
+
+identify with tag
+	tag and attribute
+		tag[attName='value']
+	tag and multiple attributes
+
+<input name='abc' placeHolder='xyz' class='qwe'></input>
+<input name='abc1' placeHolder='xyz' class='qwe'></input>
+<input name='abc2' placeHolder='xyz1' class='qwe'></input>
+<input name='abc1' placeHolder='xyz2' class='qwe'></input>
+<input name='abc1' placeHolder='xyz3' class='qwe'></input>
+
+page.locator("input[name='abc']")
+page.locator("input[name='abc1'][placeHolder='xyz']")
+
+
+
+
+
+	
+page.locator("a[id='abc']")
+<a id='abc'></a>
+<input id=abc1></input>
+<button id=abc2></button>
+<a id=abc3></a>
+<input id=abc4></input>
+<button id=abc5></button>
+
+page.locator('a')
+page.locator('input')
+page.locator('button')
+
+
+
+
+
+
+
+
+
+
+
+
+

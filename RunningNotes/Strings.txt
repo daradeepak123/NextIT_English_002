@@ -1,0 +1,53 @@
+Recap
+	JavaScript
+	TypeScript
+		Function/Methods
+			parameters and return types
+		variables
+			let var and const
+		datatypes
+
+			let str:string=""
+		Constructors
+		static non static
+		class
+		methods
+		objects
+		Loops
+		conditions
+		arrays
+			let a:number=""
+
+Agenda
+	1. String
+
+
+
+
+
+
+
+
+
+
+	
+class ABC{
+hello(){some logic}
+}
+
+
+let obj:ABC=new ABC()
+
+obj.
+
+Hello, World @ 1 !
+
+!
+ !
+1 !
+ 1 !
+
+Hello, World @1 !
+
+
+

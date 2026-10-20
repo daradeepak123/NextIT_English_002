@@ -1,0 +1,35 @@
+
+Agenda
+	
+	1. Arrays
+		to store multiple data at a time in a single variable
+		you can manage the data
+		retrieve the data
+		delete the data 
+		duplicated data
+		index method to store the data
+		store all the types of data types
+		retravel process can be done in automated passion as well
+	let a:number= wanted to store 10 numbers	
+
+let abc:number[]=[10, 30, 50 ,123 ,12324 ,412]
+
+
+
+
+10 30 50 123 12324 412 
+
+let a:number=10
+let b:number=30
+
+
+
+I wanted to store 100 numbers in an array
+
+in that segregate odd numbers in odd array
+		even numbers in even array
+
+
+
+
+

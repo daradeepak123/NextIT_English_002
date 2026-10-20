@@ -1,0 +1,97 @@
+Recap
+	1. Variables Store the data
+	2. Datatypes  type of data that will be strore in variables 
+
+101   let abc="hello"
+
+1001  abc=10
+
+console.log(typeof abc)
+
+
+let xyz="ahsd"
+
+
+
+Agenda
+
+
+
+	1. Typescript
+		npm init -y
+		npm install -D typescript tsx @types/node
+		npx tsc --init
+	2. DataTypes	
+		a. number
+			let num:number=5000
+		b. string
+		c. Boolean
+		d. type
+		e. interface
+		f. union
+		g. null
+		h. unknown	
+		i. any
+		j. arrays
+
+
+datatypes and variables are like friends
+
+	let abc:number
+
+
+came from java script only
+
+
+
+Operators
+
+	a. math
+		+ - / % *
+
+
+let num:number=500
+let num1:number=500
+
+let nn:number=num*num1
+
+
+
+
+	b. comparator
+	c. assignment
+	d. inc/dec
+	e. logical
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

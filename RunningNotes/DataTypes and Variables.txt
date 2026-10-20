@@ -1,0 +1,89 @@
+
+
+Agenda
+	1. variables types
+		let
+		const
+		var
+	2. Data types
+
+
+variables
+
+let abc=100
+
+abc = 500
+
+
+abc=60000
+
+const xyz=500
+
+
+const name="John"
+let age="xyz"
+let phno=""
+const let aadharNumber=""
+
+
+DataTypes
+
+let qwe=100   
+
+numbers
+String
+Boolean
+bigInt
+
+qwe="hello"
+
+
+
+export and import
+
+Market
+	export 1000 mangoes 
+	export 100 apples
+
+
+
+you
+	import {mangoes, apple} from "address of market"
+	import {apples} from "address of market"
+ 	
+
+	mangoes juice
+
+
+
+
+
+
+
+
+
+
+abc.js
+
+
+
+
+xyz.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

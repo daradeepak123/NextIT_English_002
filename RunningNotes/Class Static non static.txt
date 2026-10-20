@@ -1,0 +1,34 @@
+
+
+Agenda
+	1. Class  collect Object methods variables
+	2. Static
+	3. non static
+	4. Object
+		a. state    
+		b. behaviour
+
+
+hello.ts
+class abc{
+var1:number=500
+
+hello()
+{
+console.log(var1)
+}
+
+}
+
+
+
+
+
+
+
+
+console.log(abc.var1)
+let aa:number=abc.var1
+
+
+

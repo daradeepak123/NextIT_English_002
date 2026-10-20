@@ -1,0 +1,41 @@
+
+
+Agenda
+	1. Alerts
+	2. Multi Web elements
+	3. WebTables   hold
+	4. switch tab
+	5. Screenshot
+	6. video recording
+	7. file upload
+
+
+Multi Web elements
+
+let links=await page.locator("//a")
+
+
+console.log(await links.count())
+
+
+for(let i=1;i<=await links.count();i++)
+{
+	console.log(await links.nth(i).innetText())
+}
+
+
+
+
+Git
+
+	source integration
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,71 @@
+
+
+Agenda
+
+	1. Functions
+		a. Parameters
+	2. Variables and types of variables
+
+
+function <name>()
+{
+statements
+}
+
+called the function
+
+
+
+Mixer Grinder 
+
+
+	Bottom Rotor
+	Jar
+
+
+Variables   are nothing but a container
+
+
+
+bottle is my container
+
+water
+
+
+bottle=water
+
+let abc=100
+console.log(abc)    // abc  5       100  1
+
+let
+const  
+var  
+
+
+Assignment:
+
+	1. Welcome all the people came to interview
+	2. Set the instructions for interviewees 
+	3. Set instructions for interviewer 
+	4. Say All the best for all
+	5. Function should have 2 parameters one is interviewer ans another is interviewee 
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+

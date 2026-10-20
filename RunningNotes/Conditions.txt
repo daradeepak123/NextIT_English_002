@@ -1,0 +1,280 @@
+Re-cap
+	1. JavaScript
+		a. set up
+		b. Print programs
+		c. tasks by management (Welcome students)
+		d. functions/methods
+			1. parameters
+			2. return type
+		e. datatypes and variables
+			let aa=500
+			aa="hello"
+
+
+	2. TypeScript
+		a. datatypes variables
+		b. export import
+		c. operators
+		d. class
+		e. static non static
+		f. object
+		g. constructor
+		h. student class
+			a. methods
+			b. static and non static
+			c. constructor
+
+let ab:number=500
+
+let aa=600
+	
+
+
+
+function abc():number
+{
+abcd:number=100;
+
+}
+
+abc()
+
+
+Agenda
+	1. Conditions
+	
+		a. simple if
+		b. else if
+		c. ladder if
+		d. nested if
+		e. Switch cases
+
+
+
+
+condition inside a condition
+
+
+
+
+
+father and son
+	father said you will get a bicycle if you get more than 500 in 10th
+
+let marks:number=501
+if(marks>500)   // true/false
+{
+	you will get a bicycle
+}
+
+
+let num:number=501
+let rem:number=num%2   //0/1
+if(rem==0)
+{
+	console.log("given number "+num+" is a even number")
+}
+
+if(rem==1)
+{
+	console.log("given number "+num+" is a odd number")
+}
+
+
+	father said you will get a bicycle if you get more than 500 in 10th
+
+let marks:number=501
+if(marks>500)   // true/false
+{
+	you will get a bicycle
+}
+
+
+father said you will be promoted to next standard if you get passed. I will send you as a daily wager
+
+
+
+let mark:number=20
+
+if(mark>35)
+{
+	console.log("promoted to next standards")
+}
+else
+{
+	console.log("Will be sent as daily wager")
+}
+
+father said 
+	get cycle if you get more than 500
+	get new dress if you get more than 400
+	get day outing ig you get more than 350
+	less than 350 daily wager
+
+let total:number=501
+if(total>500)
+{
+	console.log("get cycle")
+}
+else if(total>400)
+{
+	console.log("get new dress")
+}
+else if(total>300)
+{
+	console.log("get day outing")
+}
+else
+{
+	console.log("you will be sent as wager")
+}
+
+
+
+
+electricity billing
+
+
+village
+	range from 1-200   cost is 2
+	range from 201-400 cost is 4
+	range from 401-600 cost is 7
+	range from 601-1000 cost is 10
+	range from 1001-above cost is 15
+town
+	range from 1-200   cost is 4
+	range from 201-400 cost is 6
+	range from 401-600 cost is 8
+	range from 601-1000 cost is 13
+	range from 1001-above cost is 18
+city
+	range from 1-200   cost is 5
+	range from 201-400 cost is 8
+	range from 401-600 cost is 10
+	range from 601-1000 cost is 15
+	range from 1001-above cost is 20
+
+
+(v/t/c)
+
+let name:string="John"
+let lMonth:number=10000
+let cMonth:number=10150
+let units:number=cMonth-lMonth
+let cost:number=0
+let geo:string="t"
+
+
+if(geo==v)
+{
+	if(units>0 && units<=200)
+{
+	cost=2
+}
+if(units>201 && units<=400)
+{
+	cost=4
+}
+if(units>401 && units<=600)
+{
+	cost=7
+}
+
+if(units>601 && units<=1000)
+{
+	cost=10
+}
+if(units>=1001)
+{
+	cost=10
+}
+}
+else if(geo==t)
+{
+if(units>0 && units<=200)
+{
+	cost=4
+}
+if(units>201 && units<=400)
+{
+	cost=6
+}
+if(units>401 && units<=600)
+{
+	cost=8
+}
+
+if(units>601 && units<=1000)
+{
+	cost=10
+}
+if(units>=1001)
+{
+	cost=13
+}
+}
+else if(geo==c)
+{
+if(units>0 && units<=200)
+{
+	cost=5
+}
+if(units>201 && units<=400)
+{
+	cost=8
+}
+if(units>401 && units<=600)
+{
+	cost=10
+}
+
+if(units>601 && units<=1000)
+{
+	cost=15
+}
+if(units>=1001)
+{
+	cost=20
+}
+}
+else 
+{
+	console.log("Enter geo as c or t or C only")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("Hello mr/ms "+name+" you need to pay "+ units*cost +"/- rs")
+
+
+
+
+Assignment
+	1. tax calculator 
+	2. switch
+
+
+
+
+
+
+
+
+
+
+
+
+

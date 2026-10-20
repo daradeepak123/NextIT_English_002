@@ -1,0 +1,97 @@
+
+
+
+Agenda
+	1. Object
+		a. state
+		b. behaviour
+	2. constructor
+
+		1. constructor are created in class
+		2. purpose is to initialize class variables
+		3. Constructors look like method but it is not a method
+		4. constructor can be parameterised 
+		5. constructors are invoked but not called
+		6. default constructor
+
+hello():number
+{
+return 10
+}
+
+class ABC{
+
+constructor()
+{
+console.log("hello")
+}
+
+
+}
+
+let ab=new ABC()
+
+
+class Student{
+
+name:string=""
+age:number=0
+phNo:number=0
+address:string=""
+salary:number=0
+gender:string=""
+isactive:boolean=false
+attendance:number=0
+dept"string=""
+company:string=""
+static institute:String=""
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	let varName=new className()
+
+export let aa:number=5000
+
+
+
+export class ABC{
+
+num:number=100
+static num1:number=500
+hello()
+{
+console.log("this is hello methid")
+}
+static hi()
+{
+console.log("this is hi method")
+}
+}
+
+let obj=new ABC()
+
+console.log(ABC.num1)
+console.log(obj.num)
+obj.hello()
+let obj1=new ABC()
+obj1.hello()
+
+
+
+

@@ -1,0 +1,186 @@
+
+
+
+Agenda
+	1. Abstraction
+		abstract method
+		abstract class
+		interface
+	2. Encapsulation
+
+abstract method and non abstract method
+
+hello()
+{
+logic lines
+}
+
+abstract hi();
+
+
+only in abstract class and interface 
+
+abstract xyz()
+{
+abstract hi();
+}
+
+class xxyyzz extends xyz{
+
+hi()
+{
+logic
+}
+
+}
+
+
+
+
+
+
+
+
+abstract abc{
+
+abstract methods 
+non abstract methods
+
+}
+
+
+abstract car
+{
+abstract weels4();
+abstract doors4();
+abstract seatingCapacity5to8();
+abstract windshield()
+abstract rearshield()
+abstract trunk()
+
+}
+
+
+
+class Maruthi extends car{
+weels4()
+{
+low standards
+}
+doors4()
+{
+}
+seatingCapacity5to8()
+{
+}
+windshield()
+{
+}
+rearshield()
+{
+}
+trunk()
+{
+}
+
+}
+
+
+
+class BMW extends car{
+weels4()
+{
+high quality
+}
+doors4()
+{
+}
+seatingCapacity5to8()
+{
+}
+windshield()
+{
+}
+rearshield()
+{
+}
+trunk()
+{
+}
+}
+
+
+all methods you have are abstract methods
+
+	will have 100% abstraction 
+
+
+interface abc{
+hello():void
+}
+
+abstract class xyz{
+
+hello()
+{
+
+}
+
+
+}
+
+
+for abstract class
+	will have 0-100% abstraction
+
+
+
+access modifiers
+
+	public
+	protected
+	private
+
+class XYZ
+{
+
+	public let abc:number=500	
+	protected let name:string="hello"
+	private let age:number=10
+
+}
+
+
+class ABC 
+{
+
+	hello()
+	{
+	console.log(this.abc)
+	console.log(this.name)
+	console.log(this.age)
+	}
+
+}
+
+
+
+
+
+
+Assignment
+	getter and setter methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+

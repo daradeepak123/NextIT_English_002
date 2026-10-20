@@ -1,0 +1,48 @@
+
+
+Agenda
+	1. sync
+	2. async
+	3. anonymous 
+	4. call back functions 
+
+
+promise 
+
+	resolved	
+	error
+
+
+
+call back functions
+function abc(a:number,b:number)
+{
+
+
+}
+
+call back functions
+function greet(name: string, callback: () => void): void {
+  console.log(`Hello, ${name}`);
+  callback();
+}
+
+function sayBye(): void {
+  console.log("Goodbye!");
+}
+
+greet("John", sayBye);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

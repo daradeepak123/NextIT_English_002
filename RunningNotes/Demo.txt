@@ -1,0 +1,61 @@
+
+
+Agenda
+	1. Introduction 
+	2. Manual Testing Challenges 
+		a. Smoke	
+		b. Functional
+		c. Sanity
+		d. re-test
+		e. regression  500+150=650
+		f. System test
+		g. Integration
+		h. Trail
+		i. Adhoc
+
+		1. time
+		2. resources 
+		3. Accuracy 
+		4. Coverage
+
+
+
+	3. Automation Testing
+
+		
+		1. Selenium
+		2. QTP   HP
+		3. Playwright
+		4. Tosca
+		5. Cypress
+		6. TestCafe
+
+
+
+		1. JavaScript /Typescript
+			a. variables
+			b. Datatypes
+			c. conditional statements
+				1. Condition
+				2. Loops
+			d. Operators
+			e. OOPS
+
+		2. HTML
+		3. Locators
+		4. PlayWright
+		5. Framework
+		6. API
+		7. DB
+		8. Source Integration (Git)
+		9. Jenkins  (CI and CD)
+		10. AI
+			a. GenAI
+			b. AgenticAI
+
+	Demo Sites 
+
+
+
+
+	4. Plan to turn our career as automation Testengineer

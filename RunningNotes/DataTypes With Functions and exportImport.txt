@@ -1,0 +1,82 @@
+
+
+Agenda
+	1. DataTypes
+		a. number
+		b. string
+		c. Boolean
+		d. Interface
+		e. type
+		f. object
+		g. array
+	2. Functions
+	3. Export Import
+	4. Operators
+
+		a. arithmetic
+			+ - * / %
+		b. assignment
+		c. comparator	
+		d. incremental/decremental
+		e. Logical 
+
+Interface
+
+	interface User{
+
+	name:string;
+	age:number;
+	phNo:number;
+	address:string;
+	isActive:boolean;
+
+}
+
+	const user1:User={
+	
+	name:"John",
+	age:30,
+	phno:9999999999
+	address:"Hyderabad"
+	isActive:true
+
+}
+console.log(Karthik.phNo)
+
+
+	const user2:User={
+	
+	name:"John",
+	age:30,
+	phno:9999999999
+	address:"Hyderabad"
+	isActive:true
+
+}
+
+
+let User:{
+
+name:string;
+age:number;
+isActive:boolean
+
+}={
+name:"john",
+age:25,
+isActive:false
+
+}
+
+
+
+Assignment:
+	1. What is type
+		How it differ from interface 
+	2. Create methods and call the data from different files.
+
+
+
+
+
+

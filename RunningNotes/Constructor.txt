@@ -1,0 +1,135 @@
+
+
+Agenda
+	1. constructor
+
+
+class ABC{
+
+
+}
+
+let obj=new ABC()
+
+let a:number=100
+
+
+Create a student class
+
+collect.ts
+
+class StudentInfo{
+
+name:string=""
+age:number=0
+phNo:number=0
+address:string=""
+salary:number=0
+gender:string=""
+isactive:boolean=false
+attendance:number=0
+dept:string=""
+company:string=""
+static institute:String="NextIT"
+
+}
+
+let student1=new StudentInfo()
+
+student1.name="Ram"
+student1.age=25
+student1.phNo=9999999999
+student1.address="Hyderabad"
+student1.salary=1000000
+student1.gender="male"
+student1.isActive=true
+student1.attendance=90
+student1.dept="Testing"
+student1.attendance=90
+student1.company="Infosys"
+
+
+let student2=new StudentInfo()
+
+student2.name="John"
+student2.age=25
+student2.phNo=9999999998
+student2.address="Hyderabad"
+student2.salary=1000000
+student2.gender="male"
+student2.isActive=true
+student2.attendance=90
+student2.dept="Testing"
+student2.attendance=90
+student2.company="Infosys"
+
+
+
+
+
+
+Print all the student details
+
+
+Management wanted to know which department he belongs to?
+
+Management wanted to know attendance of student
+
+
+
+
+function add(num:number,num1:number)
+{
+abc:number=num+num1
+}
+
+let num:number=100
+let num1:number=500
+
+add(num,num1)
+
+aa:number=1000
+
+abc(){
+
+aa:number=100
+
+console.log(this.aa)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

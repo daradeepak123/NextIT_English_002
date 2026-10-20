@@ -1,0 +1,75 @@
+
+
+Agenda
+	1. Operators
+		a. arithmetic
+		b. comparator 
+			< >  <=  >=  === !=
+			true/false
+
+
+10<80   true
+10<8	false
+
+100===100 true
+
+let num:number=10
+let num1:number=20
+let flag:boolean=num<num1
+console.log(flag)
+
+		c. logical
+			or and not
+			|   &   !
+		
+A	B	A | B	A & B	!A	!B
+TRUE	TRUE	TRUE	TRUE	FALSE	FALSE
+TRUE	FALSE	TRUE	FALSE	FALSE	TRUE
+FALSE	TRUE	TRUE	FALSE	TRUE	FALSE
+FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+
+
+
+
+		d. Assignment
+		     =  += -=  /= %= 
+let a:number=100
+
+a+=500
+
+		e. Inc/Dec 
+		++ --
+let a:number=100
+
+a++
+
+a--
+100
+		pre and post increment/decrement
+
+
+let num:number=100;
+
+console.log(num++)
+
+
+
+
+
+
+
+
+
+	2. Class
+
+
+
+
+Assignment
+	1. Design calculator 
+		a. to add 10 numbers 
+
+
+
+
+

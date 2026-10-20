@@ -1,0 +1,98 @@
+
+
+Agenda
+	1. Object
+	2. Constructor
+		looks like a method but it is not
+		constructor do not have return type
+		it can have parameter
+		it cannot be called but invoked
+		if no constructor declared default constructor will come into picture
+	
+	3. Employee class
+
+ABC.aa()
+let obj=new ABC()
+
+class ABC{
+static aa():void
+{
+lines of code 
+}
+
+constructor()
+{
+	
+	lines of code
+}
+
+}
+
+
+
+
+
+class ABC{
+variables
+methods
+objects
+constructor
+}
+
+
+static 
+
+
+non static 
+	Object
+		a. state   
+		b. behaviour
+
+
+class ABC{
+	ab:number=500
+	hello()
+	{
+	console.log("Hello")
+	}
+}
+
+console.log(ABC.ab)
+
+let obj=new ABC()
+
+console.log(obj.ab)
+obj.hello()
+
+let obj1=new ABC()
+
+
+	Collect all the student data
+
+
+class studentDetails{
+
+id:number=0
+name:string=""
+gender:string=""
+phNo:number=0
+email:string=0
+isActive:boolean=false
+address:string=""
+company:string=""
+static institute:string="NextIt" 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

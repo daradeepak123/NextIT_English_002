@@ -1,0 +1,87 @@
+
+
+Xpath
+	absolute xpath
+		/ single slash
+
+	relative xpath
+		// double slash 
+
+
+tag
+		//tagName
+tag and attribute
+		//tagName[@attribute='value']
+		//tab[@att1='' operator @att2='' ... n number of attr]
+text methods
+		plain text
+		//tagName[text()='ValueOfText']
+		contains text
+		//tagName[contains(text(),'containingValue')]
+		starts-with
+		//tagName[starts-with(text(),'startingValue')]
+relations
+		
+<jagan id='ex-cm'>
+	<varsha></varsha>
+</jagan>
+//jagan[@id='ex-cm']//child::varsha
+
+<venkat>
+	<chiru id=MS></chiru>
+	<nagBabu></nagBabu>
+	<pavan id=PS></pavan>
+</venkat>
+
+//chiru[@id='MS']/parent::venkat
+
+
+
+<button name="abc1" class="qwe1"></button>       
+<button name="abc" class="qwe1"></button>         1  1
+<button name="abc3" class="qwe2"></button>
+<button name="abc" class="qwe"></button>            
+
+
+//button[@name='abc' and @class='qwe1']
+
+
+
+
+
+/html/body/div/div[1]/div/div[1]/div/div[3]/div[2]/form/div[1]/div/div[2]/input
+
+
+take left 
+
+
+hello
+
+
+//a[contains(text(),'Ad')]
+
+
+
+
+
+sibling
+
+//input[@id='aa']/following-sibling::input[1]
+//input[@id='aa']/parent::div/following-sibling::div/child::input[4]
+<div>
+	<input></input>
+	<input id='aa'></input>
+	<input></input>
+	<input></input>
+</div>
+<div>
+	<input></input>
+	<input></input>
+	<input></input>
+	<input></input>
+</div>
+
+
+
+
+my current location 

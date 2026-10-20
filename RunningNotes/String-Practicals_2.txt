@@ -1,0 +1,82 @@
+
+
+Agenda
+	1. split functions
+		let str:string="mom and dad are going to meet madam"
+		let words:string[]=str.split("a")
+		for(let i=0;i<words.length;i++)
+		{
+			console.log(words[i])
+		}
+		what are palindrome words in the given sentance 
+
+	2. char count
+		let str:string="welcome to NextIt"
+		let char:string="e"
+		let count:number=0
+		for(let i=0;i<str.lenght;i++)
+		{
+			if(str.charAt(i)==char)
+			{
+				count++
+			}
+		
+		}		
+		console.log(count)
+
+
+	3. OOPS   60-75% of oops are completed
+
+		1. class  
+			constructors 	
+		2. methods 
+			return
+			parameters
+		3. object  
+			state
+			behaviour
+			
+			students class
+				constructor
+				method 
+				static non static real usages
+		4. Inheritance
+			1. single level
+			2. multilevel
+			3. hierarchical
+			4. Hybrid 
+		5. polymorphism
+			methods
+				overloading
+				overriding
+		6. abstraction
+			abstract keyword
+			abstract class
+			abstract method
+			Interface
+			
+		7. encapsulation 
+
+			class
+			access Modifiers
+				public
+				private
+
+			Getter and setter methods 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mom 

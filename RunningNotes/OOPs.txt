@@ -1,0 +1,119 @@
+GIT
+
+sync and async
+await
+=> functions
+
+html
+	login page
+	locators
+
+
+Introduction to playwright
+	set up
+	basic program
+	
+	perform action
+		on webElement
+
+	functional flow
+AI
+	How do we generate script
+		MCP server
+	
+
+framework
+	Hybrid framework
+		combination of multiple FW
+			DD KD + PageObject model
+
+BDD Cucumber
+
+Reporting
+
+Integrations
+
+API
+
+DB
+
+Interview prep and resume demo
+
+close
+
+
+Agenda
+		1. class  
+			constructors 	
+		2. methods 
+			return
+			parameters
+		3. object  
+			state
+			behaviour
+			
+			students class
+				constructor
+				method 
+				static non static real usages
+		4. Inheritance
+			1. single level
+			2. multilevel
+			3. hierarchical
+			4. Hybrid 
+		5. polymorphism
+			methods
+				overloading
+				overriding
+		6. abstraction
+			abstract keyword
+			abstract class
+			abstract method
+			Interface
+			
+		7. encapsulation 
+
+			class
+			access Modifiers
+				public
+				private
+
+			Getter and setter methods 
+
+
+
+
+
+Assignment:
+Convert all learnings with Inheritance concepts 
+
+
+
+export class ArrayData{
+
+cities:string[]=["hyd","Chennai"]
+
+
+}
+
+
+class palindromeCheck extends ArrayData{
+
+
+
+}
+
+class duplicationCheck extends ArrayData{
+
+}
+
+
+
+
+
+
+
+
+
+
+

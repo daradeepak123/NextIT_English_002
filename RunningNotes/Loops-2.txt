@@ -1,0 +1,125 @@
+
+
+Agenda
+	1. Loops
+		a. while
+		b. do while
+		c. Nested loop
+		d. Star patterns 
+
+
+while loop
+
+for(ini;con;inc/dec)
+{
+
+}
+
+
+
+ini
+while(true/false)
+{
+code
+inc/dec
+}
+
+let a:number=1
+while(a<=10)
+{
+console.log(a)
+a++
+}
+
+do while loop
+
+do
+{
+
+}while(condition)
+
+nested loop
+	loop inside a loop
+
+
+
+for(ini;con;inc/dec)
+{
+logic
+}
+iCount=0
+oCount=0
+for(let i=1;i<=10;i++)   // 2
+{
+	oCount++    // 2
+	for(let j=1;j<=10;j++)
+	{
+	
+	iCount++
+	}	
+}
+
+Need a report to find out what is prime number and what is not a prime number from 1 -100 numbers
+	
+
+Print tables from 1 - 20 tables with 10 count
+
+
+
+Lets print
+
+*
+* * 
+* * *
+* * * *
+* * * * *
+
+
+console.log(*)
+console.log(* *)
+console.log(* * * )
+console.log(* * * *)
+console.log(* * * * *)
+
+
+
+
+
+for(let i=1;i<=10;i++)
+{
+
+}
+
+flag
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment
+	1. Identify the factorial of given number using while loop and do while loop
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

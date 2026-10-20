@@ -1,0 +1,48 @@
+Recap:
+	1. Demo
+	2. Installations and Printing message
+	
+
+Agenda
+	1. Functions/Methods
+
+
+Function  -> Function is nothing but block of code
+	having some piece of code in it 
+	on call basis it will come and execute the code for us
+
+
+
+function <nameOfFunction>()
+{
+statement 1
+statement 2
+statement 3
+statement n
+}
+
+
+
+
+
+
+Call carpenter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

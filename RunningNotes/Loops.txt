@@ -1,0 +1,184 @@
+
+let abc:number=500
+age should be min 18 -> height should be 6ft 183
+let age:number=20
+if(age>=18)  //true
+{
+you are eligible to apply army job
+}
+else
+{
+you are not eligible to apply army job
+}
+
+
+
+for(initialization; condition; inc/dec)
+{
+
+
+}
+ 2 songs    1 2 3 4 5 6 7 8 9 10
+
+for(let i=1;i<=-10;i++)   // 1    1<=-10
+{
+2 songs
+}
+
+
+
+
+
+Agenda
+	1. Loops
+		a. simple for loop
+		b. while loop
+		c. do while loop
+		d. for each loop
+		e. nested loop
+let a=1
+
+for(let i=1; i<=20;i++)   //  21<=20
+{
+songs
+}
+
+
+for(ini; condition;inc/dec)
+{
+
+}
+
+flow chart of loops
+
+My manager asked me to print 1 - 100 numbers
+
+
+
+what are even numbers and what are odd numbers
+
+
+
+
+let num:number=100
+
+for(let i=1;i<=num;i++)   //11  11<=10
+{
+console.log(i)
+}
+
+
+
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+console.log(7)
+console.log(8)
+console.log(9)
+console.log(10)
+console.log(11)
+console.log(12)
+console.log(13)
+console.log(14)
+console.log(15)
+console.log(16)
+console.log(17)
+console.log(18)
+console.log(19)
+console.log(110)
+
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+console.log(7)
+console.log(8)
+console.log(9)
+console.log(100)
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+
+
+formula for odd/even
+
+	if numbr get 0 as reminder than it is even
+	else odd number
+
+
+print tables 
+ 1 - 10 number tables till 10 numbers
+
+
+for(let i=1;i<=10;i++)
+{
+console.log(i*10)
+}
+
+Prime number
+
+
+let primeCheck:number=51
+
+for(let i=2;i<primeCheck;i++)
+{
+
+	if(primeCheck%i=0)
+	{
+		console.log("given number is not a prime number")
+	}
+
+}
+
+infinity loop 
+break
+
+
+for(let i=1;i>-10;i++)
+{
+console.log(i)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

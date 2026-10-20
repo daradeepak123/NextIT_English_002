@@ -1,0 +1,116 @@
+
+
+Agenda
+	1. String printing
+		helloh
+                0    5
+	2. find duplicate char
+
+		functions
+		
+		let str:string="helloh"        // 0    5
+		let checkChar:string="h"
+		
+		let fPos:number=str.indexOf("h")		
+		let lPos:number=str.lastIndexOf("h")
+
+		if(fPos==lPos)
+		{
+			console.log("Given char "+checkChar+" is not getting duplicated")
+		}
+		else
+		{
+			console.log("Given char "+checkChar+" is  getting duplicated")
+		}
+
+		
+		logic
+			let str:string="hellohhhhh"
+			let strr:string="h"
+			let count:number=0
+			for(let i=0;i<str.length;i++)
+			{
+				if(str.charAt(i)=="h")
+				{
+					count++
+				}
+			}
+
+			if(count>1){console.log("given char is a duplicated char")}
+			else{console.log("given char is not a duplicated char")}
+
+
+Reverse given string
+
+
+	let str:string="hello"
+	let rev:string=""	
+
+	for(let i=0;i<str.length;i++)
+	{
+		rev+=rev+str.charAt(i)	  // he+l=hel
+	}
+
+
+
+console.log("hello")
+hello 
+
+console.log("h")
+console.log("e")
+console.log("l")
+console.log("l")
+console.log("o")
+
+
+h
+e
+l
+l
+o
+olleh
+o
+l
+l
+e
+h
+hello
+
+let str:string="hello"
+
+console.log(str)
+
+for -> metods in String
+
+for(let i=0;i<str.length;i++)
+{
+console.log(str.charAt(i))
+}
+
+
+hello
+console.log()
+
+		4. palindrome
+			mom mom
+			racecar
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

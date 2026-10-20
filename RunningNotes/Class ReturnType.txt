@@ -1,0 +1,71 @@
+
+
+Agenda
+	1. Return type of method/function
+	2. class
+	3. dif between function and method
+	4. static and non static
+let a:number=100
+		a. static 
+		b. non static 
+			memory management
+
+class <name of class>{
+
+
+
+}
+
+class XYZ{
+	static abc:number=100
+
+	xyz:number=5000
+
+
+}
+
+
+
+function abc()
+{
+code
+}
+
+function add(a:number,b:number):number
+{
+let c=a+b
+return c
+}
+
+let aa:number=add(10,10)
+
+let op:number=add(100,100)
+console.log(op)
+
+
+(((10+10)*1000)/10)-600
+
+
+let op:number=add(10,10)
+
+op=mul(op,1000)
+
+op=div(op,10)
+
+op=sub(op,600)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

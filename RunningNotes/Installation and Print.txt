@@ -1,0 +1,38 @@
+
+
+Agenda
+	1. Installation
+		a. node
+		b. Visual studio IDE (Integrated development environment)
+			1. Eclipse
+			2. VS Code
+			3. KIRO
+			4. Cursor
+					5. IntellJ
+
+
+
+		c. Set up
+			npm init
+		Path
+			node .\src\Print.js
+
+			C:\Work\NextITSol\Batches\English\Batch002\EnglishBatch_002\src\Print.js
+
+
+
+	2. Print program
+		a. task 1
+		b. task 2
+
+Management asked me to welcome all the students
+
+
+Review
+
+	
+
+Functions
+
+
+

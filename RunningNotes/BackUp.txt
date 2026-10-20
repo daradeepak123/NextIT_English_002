@@ -1,0 +1,479 @@
+
+
+Agenda
+	1. Introduction
+	2. Basic of manual Challenges
+		a. Functional
+		b. Sanity
+		c. Regression
+
+		challenges
+		1. Time
+		2. Accuracy
+		3. Scope
+		4. Resources  
+
+
+	3. Automation testing
+
+
+		write a script 
+		1. QTP HP
+		2. Playwright
+		3. Selenium Java Open source 
+		4. Protractor
+		5. TestCafe
+
+
+
+
+
+	4. PPT
+	5. Turing our career
+
+
+Playwright engineer
+
+	
+
+Replacement
+
+
+
+Father said I will get you bicycle if you get more than 500 marks
+
+550
+
+400
+
+Program
+
+marks=500
+
+if(marks>500)
+{
+I will get you cycle
+}
+
+
+
+
+
+Agenda
+	1. Installations
+		Node
+		VS Code IDE
+	2. First program
+		a. task given by management
+
+
+
+		To welcome all  the students with program
+		Class will get started by 9 AM
+		we will learn Java Script Type Script Playwright
+		class will get ended by 10AM
+		
+	3. Function
+
+Function/Method
+
+collection of lines of code
+execute all the code when ever it is called
+
+function <nameOfFunction>()
+{
+lines of code
+}
+
+
+
+function instructionForStudents()
+{
+console.log("Class will get started by 9:00 AM, so please be on time.");
+console.log("We will learn about Java script, typeScript, Playwright");
+console.log("Class will end by 10:00 AM.");
+}
+
+
+
+
+call carpenter (Stuffed with wood skill)
+
+
+come to my place
+perform the task 
+leave my premises 
+
+
+call carpenter
+
+
+
+
+Market
+	Deepak
+	export Mangoes 100
+	apples  10
+	Ram
+	apples 1000
+
+
+
+Your home
+
+import {mangoes} from "./market/Deepak"
+import {Apples} from "./market/Ram"
+
+
+console.log(mangoes)
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+variables and datatypes
+
+
+let abc=100
+
+
+
+abc=600
+
+
+
+abc="NextIT"
+
+
+TypeScript
+
+
+functions xyz()
+{
+logic
+
+}
+
+functions xyz1()
+{
+logic1
+
+}
+ 
+
+xyz()
+
+xyz()
+
+
+
+variables   data   containers 
+
+	purpose of a container is to store the data
+
+
+
+let 
+const
+var
+
+
+
+
+ 
+
+
+Introduction to typescript
+
+
+
+
+variables and datatypes
+funtions/Methods with parameter
+design calculator 
+
+
+
+number    decimals
+Boolean   true/false
+string	""
+
+let aa=4000
+
+console.log(typeof aa)
+
+
+TypeScript
+
+let aa:string="500 rupees " + 800
+
+let fName:string="deepak"
+let lName:string="dara"
+
+let fullName:string=fname+lname
+
+
+500 rupees 800
+Assignment:
+
+	1. Set up a project
+	2. Yoy are an interviewer 
+		a. Set instructions for Interviewee 
+		b. set instructions for interviewer 
+
+
+
+
+
+
+
+
+export and import
+
+
+
+Market
+	deepak 
+	export mangoes 500
+	apples 10
+	
+	ram
+	apple 600
+	bananas 1000
+
+
+
+your home
+	
+
+	import {mangoes} from "./market/deepak"
+	import {apple, bananas} from "./market/ram"
+xyz
+	asd.ts
+	let qwe:number=6000
+src
+	calc.ts
+	export let abc:number=6000
+	
+	export function add()
+	{
+	console.log(abc+500)
+	}
+
+
+
+
+	execution.ts
+
+	import {abc} from "./calc"
+	import {qwe} from "./../xyz/asd"
+
+
+Method with parameter
+
+
+
+
+mixer grinder
+
+
+?
+functions clubFnameLnameAndWelcome(fName:string,lName:string)
+{
+
+	console.log("Hello "+lName+" welcome to NextIt")
+	console.log("we are confirming your full name:" +fName + lName)
+
+}
+	
+clubFnameLnameAndWelcome("Deepak","Dara")
+
+
+export function add(n:number,n1:number) {
+    let num: number = n
+    let num1: number = n1
+    let nn: number = num + num1
+    console.log("Value of adding 2 numbers is : " + nn);
+}
+
+
+add(0,100)    100
+add(500,500)  1000
+
+
+
+We will get started by 8:10 approx.
+
+
+
+
+Agenda
+	1. Method with parameter
+		function add(parameters)
+		{
+			logic
+		}
+
+
+	2. method with return type
+
+		
+
+		
+
+
+
+
+
+
+	3. calculator 
+
+
+
+((100+100)-50)*10
+
+s=sum(100,100)
+
+su=sub(s,50)
+
+mu=mul(su,10)
+
+	4. Class
+	5. static and non static
+		Memory management
+	6. Constructor
+
+
+export class ABC{
+
+ab:number=500
+
+
+
+add(a:number,b:number):number
+{
+return c:number=a+b+ab
+}
+}
+
+
+export function add(a:number, b:number):number {
+    let nn: number = a + b
+    return nn;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Operators
+	1. Arithmetic
+	2. Comparator
+		<  > <=  >=   !=  
+
+
+let a:number=500
+let b:number=600
+
+let flag:boolean=a<b  
+
+flag=a>b     // 500>600
+
+
+flag= a<=b    // 500<=60
+
+
+	logical Operator
+
+		or             and            not
+
+true || true   true
+true || false  true
+
+
+A	B	A | B	A & B	!A	!B
+TRUE	TRUE	TRUE	TRUE	FALSE	FALSE
+TRUE	FALSE	TRUE	FALSE	FALSE	TRUE
+FALSE	TRUE	TRUE	FALSE	TRUE	FALSE
+FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+
+
+
+js
+let xyz=500
+
+
+
+xyz="hello"
+
+ts
+
+let xyz:number=500
+
+xyz=600
+
+let xyzz=500
+
+
+
+
+
+assignment operator
+
+	= += -= /= %= *=
+
+
+let a:number=500
+
+a=600
+
+a+=400
+
+a*=10
+
+
+
+
+
+
+
+
+static and non static 
+
+Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

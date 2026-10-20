@@ -1,0 +1,60 @@
+
+	typescript   javascript
+	node 
+	vs Code
+
+
+
+Agenda
+	1. What is playwright?
+		Automation tool
+			a library 
+			
+
+
+	2. Playwright set up
+		npm init playwright@latest
+		npx tsc --init
+	3. locators 
+		1. in built locators
+		2. css
+		3. xpath
+		
+
+
+abc.ts
+
+export function hello(num1:number, num2:number)
+{
+some code
+}
+
+export let num:number=100
+
+
+xyz.ts
+
+import {num, hello} from "./abc.ts"
+import {test} from "playwright/"
+
+hello(100,100)
+
+
+
+
+
+test("description", async ()=>{
+
+
+code related to pw
+
+
+})
+
+
+
+
+
+
+
+
