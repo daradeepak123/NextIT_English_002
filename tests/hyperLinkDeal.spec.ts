@@ -11,7 +11,4 @@ test('Hyper Link Test', async ({ page }) => {
     await page.waitForTimeout(2000);
     let heading =page.getByRole('heading', { name: 'A/B Test Control' })
     console.log("Heading is : "+await retriveDataFromWebElement(heading));
-
-   
-
 });
