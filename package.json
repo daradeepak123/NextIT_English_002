@@ -6,6 +6,9 @@
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
+    "bdd:generate": "bddgen test",
+    "bdd:test": "bddgen test && playwright test --project=orangehrm-bdd",
+    "bdd:headed": "bddgen test && playwright test --project=orangehrm-bdd --headed",
     "typecheck": "tsc --noEmit",
     "install:browsers": "playwright install"
   },
@@ -19,6 +22,7 @@
   "devDependencies": {
     "@playwright/test": "^1.64.0",
     "@types/node": "^26.6.5",
+    "playwright-bdd": "^9.2.1",
     "typescript": "^7.0.2"
   }
 }

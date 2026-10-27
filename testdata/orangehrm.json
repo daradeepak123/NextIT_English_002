@@ -1,0 +1,60 @@
+{
+  "baseUrl": "https://opensource-demo.orangehrmlive.com",
+  "loginPath": "/web/index.php/auth/login",
+  "credentials": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "modules": {
+    "admin": {
+      "label": "Admin",
+      "path": "/web/index.php/admin/viewSystemUsers"
+    },
+    "pim": {
+      "label": "PIM",
+      "path": "/web/index.php/pim/viewEmployeeList"
+    },
+    "leave": {
+      "label": "Leave",
+      "path": "/web/index.php/leave/viewLeaveList"
+    },
+    "time": {
+      "label": "Time",
+      "path": "/web/index.php/time/viewEmployeeTimesheet"
+    },
+    "recruitment": {
+      "label": "Recruitment",
+      "path": "/web/index.php/recruitment/viewCandidates"
+    },
+    "myInfo": {
+      "label": "My Info",
+      "path": "/web/index.php/pim/viewPersonalDetails/empNumber",
+      "pathPrefix": true
+    },
+    "performance": {
+      "label": "Performance",
+      "path": "/web/index.php/performance/searchEvaluatePerformanceReview"
+    },
+    "dashboard": {
+      "label": "Dashboard",
+      "path": "/web/index.php/dashboard/index"
+    },
+    "directory": {
+      "label": "Directory",
+      "path": "/web/index.php/directory/viewDirectory"
+    },
+    "claim": {
+      "label": "Claim",
+      "path": "/web/index.php/claim/viewAssignClaim"
+    },
+    "buzz": {
+      "label": "Buzz",
+      "path": "/web/index.php/buzz/viewBuzz"
+    },
+    "maintenance": {
+      "label": "Maintenance",
+      "path": "/web/index.php/maintenance/purgeEmployee",
+      "requiresAdminAccess": true
+    }
+  }
+}
