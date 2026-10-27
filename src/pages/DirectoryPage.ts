@@ -1,0 +1,35 @@
+import { expect, type Locator, type Page } from '@playwright/test';
+import { UIHelper } from '../utils/uiHelpers';
+import { orangeHRMTestData } from '../utils/testData';
+
+export class DirectoryPage {
+  private readonly moduleData = orangeHRMTestData.modules.directory;
+  readonly heading: Locator = this.page.getByRole('heading', {
+    name: 'Directory',
+    exact: true,
+    level: 5,
+  });
+  readonly employeeName: Locator = this.field('Employee Name');
+  readonly searchButton: Locator = this.page.getByRole('button', {
+    name: 'Search',
+  });
+
+  constructor(private readonly page: Page) {}
+
+  private field(label: string): Locator {
+    return this.page.locator('.oxd-input-group').filter({
+      has: this.page.locator('label').getByText(label, { exact: true }),
+    }).locator('input').first();
+  }
+
+  async open(): Promise<void> {
+    await UIHelper.clickElement(
+      this.page.getByRole('navigation', { name: 'Sidepanel' })
+        .getByRole('link', { name: this.moduleData.label, exact: true }),
+    );
+    await expect(this.page).toHaveURL(
+      `${orangeHRMTestData.baseUrl}${this.moduleData.path}`,
+    );
+    await expect(this.heading).toBeVisible();
+  }
+}

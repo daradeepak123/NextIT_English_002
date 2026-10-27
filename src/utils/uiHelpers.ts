@@ -23,48 +23,24 @@ export class UIHelper {
     }
 
     static async verifyHeading(locator: Locator, expectedText: string):Promise<string> {
-        
-        if (await this.isReady(locator)) {
-            const actualText = await locator.innerText();
-            console.log('Heading Text:', actualText);
-            await expect(locator).toHaveText(expectedText);
-            return actualText
-        } else {
-            console.log('Heading is not visible or enabled');
-            return 'noData'
-        }
-        
+        await expect(locator).toHaveText(expectedText);
+        return locator.innerText();
     }
 
-
-    static async setText(locator: Locator, text: string) {
-
-        if (await this.isReady(locator)) {
-            await locator.clear();
-            await locator.fill(text);
-        }
-        else {
-            console.log('Textbox is not visible or enabled');
-        }
+    static async setText(locator: Locator, text: string): Promise<void> {
+        await locator.fill(text);
     }
 
-    static async clickElement(locator: Locator, wait: number = 3000) {
+    static async clickElement(locator: Locator, wait = 3000): Promise<void> {
         await locator.waitFor({ state: 'visible', timeout: wait });
-        if (await this.isReady(locator)) {
-            await locator.click();
-        } else {
-            console.log('Element is not visible or enabled');
-        }
+        await locator.click();
     }
 
-    static async selectDropdownOption(locator: Locator, optionValue: string) {
-        if (await this.isReady(locator)) {
-            await locator.selectOption(optionValue);
-            const selectedOption = await locator.inputValue();
-            console.log('Selected Option:', selectedOption);
-        } else {
-            console.log('Dropdown is not visible or enabled');
-        }
+    static async selectDropdownOption(
+        locator: Locator,
+        optionValue: string,
+    ): Promise<void> {
+        await locator.selectOption(optionValue);
     }
 
 }
